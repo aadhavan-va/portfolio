@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aadhavan's portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="modal">
+      <h1 class="modal__title">
+        I am currently working as a software Engineer at Freshworks in Freshchat
+        team.
+      </h1>
+      <h1 class="modal__title">
+        I love problem solving. I am good at Data Structures and Algorithms. I
+        do practice coding problems in various coding platforms regularly.
+      </h1>
+    </div>
+    <header class="main-header">
+      <!-- Mobile view toggle button -->
+      <div>
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+      </div>
+      <!-- Desktop nav view -->
+      <nav class="nav-bar">
+        <ul class="nav-bar__items">
+          <li class="nav-bar__hi">
+            <a href="#intro">Hi!</a>
+          </li>
+          <li class="nav-bar__skills">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-bar__projects">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-bar__contact-me">
+            <a href="#contact">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Mobile nav bar -->
+      <nav class="mobile-nav-bar">
+        <ul class="mobile-nav-bar__items">
+          <li class="mobile-nav-bar__hi">
+            <a href="#intro">Hi!</a>
+          </li>
+          <li class="mobile-nav-bar__skills">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="mobile-nav-bar__projects">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="mobile-nav-bar__contact-me">
+            <a href="#contact">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Mobile nav bar end -->
+    <main>
+      <!-- intro section -->
+      <section class="main-intro" id="intro">
+        <div class="container">
+          <div class="row">
+            <div class="intro-image">
+              <img
+                class="profileImage"
+                src="./images/Aadhavan.JPG"
+                alt="Profile-image"
+              />
+            </div>
+            <div class="intro-info">
+              <h3>Hey, it's</h3>
+              <h1>Aadhavan</h1>
+              <h5>I am a Frontend Developer</h5>
+              <button class="about-me">About me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section -->
+      <section class="main-skills" id="skills">
+        <div class="total-skills">
+          <div class="skills-order">
+            <div class="my-skills">
+              <h1>My Skillset</h1>
+              <div class="brief">
+                I have worked with following technologies and frameworks
+              </div>
+            </div>
+            <div class="skill-container">
+              <div class="box">
+                <img src="./images/logo_html.png" />
+              </div>
+              <div class="box">
+                <img src="./images/logo_css.jpeg" />
+              </div>
+              <div class="box">
+                <img src="./images/logo_ES6.png" />
+              </div>
+              <div class="box">
+                <img src="./images/logo_react.webp" />
+              </div>
+            </div>
+          </div>
+          <div class="coding-profiles">
+            <div class="my-skills">
+              <h1>Coding Profiles</h1>
+            </div>
+            <div class="coding-profiles__list">
+              <div class="box">
+                <a href="https://leetcode.com/_Aadhavan_" target="_blank"
+                  ><img src="./images/LeetCode_logo.png" />
+                  <div class="logo-name">Leetcode</div>
+                </a>
+              </div>
+              <div class="box">
+                <a
+                  href="https://codeforces.com/profile/aadhavan_va"
+                  target="_blank"
+                >
+                  <img src="./images/codeforces.png" />
+                  <div class="logo-name">Codeforces</div>
+                </a>
+              </div>
+              <div class="box">
+                <a
+                  href="https://www.codechef.com/users/aadhavan_va"
+                  target="_blank"
+                >
+                  <img src="./images/codechef.jpeg" />
+                  <div class="logo-name">Codechef</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- projects section -->
+      <section class="main-projects" id="projects">
+        <div class="main-projects__lists">
+          <div class="my-projects">
+            <h1>Projects</h1>
+            <div class="my-projects__intro">Some of my projects</div>
+          </div>
+          <div class="my-project__image">
+            <img src="./images/expense-tracker.png" />
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="main-contact" id="contact">
+        <div class="contact-section">
+          <div class="contact-section__wrap">
+            <div class="contact-section__touch">Get in touch</div>
+            <div class="contact-section__connect">Let's connect</div>
+            <hr />
+          </div>
+          <div class="contact-section__icons">
+            <a href="https://twitter.com/Aadhavan_va" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="mailto:aadhavanlionel008@gmail.com" target="_blank">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aadhavan-va" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <script src="shared.js"></script>
+  </body>
+</html>
